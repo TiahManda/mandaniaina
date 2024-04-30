@@ -301,8 +301,8 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/TiahMMainBg.jpg);
     height: auto;
+    background-image: url("../images/ComputingDevelopment.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -1200,6 +1200,60 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .social_icon li a:hover {
+    background-color: #fda417;
+    color: #ffffff;
+}
+
+.social_icon_1 {
+    width: 100%;
+    display: inline-grid;
+    text-align: center;
+    margin-top: 40px;
+    margin: 20px;
+}
+
+.bi-facebook {
+    color: #4048df;
+}
+
+.bi-instagram {
+    color: #cc309d;
+}
+
+.bi-twitter {
+    border-radius: 30% 30% 30% 30%;
+    font-size: 18px;
+    background-color: #5889f5;
+    color: white;
+}
+
+.bi-linkedin {
+    color: #5889f5;
+}
+
+.social_icon_1 ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-grid;
+}
+
+.social_icon_1 li {
+    float: left;
+}
+
+.social_icon_1 li a {
+    float: left;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 100%;
+    font-size: 22px;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social_icon_1 li a:hover {
     background-color: #fda417;
     color: #ffffff;
 }
